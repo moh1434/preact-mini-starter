@@ -1,0 +1,23 @@
+{
+  "name": "preact-mini-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "preact": "^10.26.9",
+    "preact-iso": "^2.9.2",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@types/node": "^24.0.10",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  }
+}
