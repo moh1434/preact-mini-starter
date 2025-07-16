@@ -9,7 +9,7 @@ import {Foo} from '@/features/foo/Index'
 
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count] = useState(0)
 
   return (
     <>
